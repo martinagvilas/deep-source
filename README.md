@@ -4,7 +4,7 @@ This is the Github repository for the Deep Source project.
 
 ## Goal
 - Simulate MEG source data with deep sources (e.g. hippocampal activity) and estimate which source reconstruction method performs better.
-- For a detailed overview of our project, see our [project- outline](../project_outline.ipynb)
+- For a detailed overview of our project, see our [project-outline notebook](/project_outline.ipynb)
 
 ## Contributors
 **\*(in alphabetic order**)
