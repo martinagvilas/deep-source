@@ -1,5 +1,8 @@
 # Deep Source
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinagvilas/deep-source/master)
+
+
 This is the Github repository for the Deep Source project.
 
 ## Goal
