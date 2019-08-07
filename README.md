@@ -2,29 +2,22 @@
 
 This is the Github repository for the Deep Source project.
 
+## Goal
+- Simulate MEG source data with deep sources (e.g. hippocampal activity) and estimate which source reconstruction method performs better.
+- For a detailed overview of our project, see our [project- outline](../project_outline.ipynb)
+
+## Contributors
+**\*(in alphabetic order**)
+- Azeez Adebimpe
+- Ryan Timms
+- Martina G. Vilas
+
+
 ## To-Do:
-1. - [ ] Define head model (e.g. single sphere, overlapping spheres or single shell)
-2. - [ ] Calculate lead field matrix after sensor locations are specified. Fortunately this step is done for us by the MEG scanner, as long as we are in the same co-ordinate system, i.e. we have done co-registration.
-3. - [ ] Given our newly calculated lead field matrix, we can “make up” some ground truth source space data.
-4. - [ ] We then multiply this ground truth data by the lead field, to get synthetic sensor space data. We can then add some noise to this to get a more feasible/realistic sensor space data set.
-5. - [ ] We then run the inversion algorithm to estimate the sources.
-6. - [ ] We compare the accuracies 
-
-## Possibilities:
-
-### Simulation
-- Deep sources
-- Correlated sources
-- Close sources
-- Different SNR
-- Co-registration error
-
-### Source reconstruction method
-- Minimum norm estimation (MNE)
-- Beamformer
-- HMM Beamformer (Maximum Likelihood)
-
-### Accuracy measures
-- Crosstalk-to-Signal Ratio (CSR)
-- Neural Activity Index (NAI)
-- Point-Spread Functions
+1. - [X] Define head model (e.g. single sphere, overlapping spheres or single shell)
+2. - [X] Calculate lead field matrix after sensor locations are specified.
+3. - [X] Create ground truth source space data.
+4. - [ ] Multiply ground truth data by the lead field, to get synthetic sensor space data.
+5. - [ ] Add some noise to synthetic data to be more realistic.
+6. - [ ] Run the different inversion algorithm to estimate the sources.
+7. - [ ] Compare accuracies for the different algorithms.
