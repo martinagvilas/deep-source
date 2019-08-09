@@ -28,5 +28,5 @@ This is the Github repository for the Deep Source project, created during [Neuro
         - Correlation of the sources
         - Closeness of the sources
         - The SNR
-<br>
+          <br>
         ... and compare the performance of different source reconstruction methods.
