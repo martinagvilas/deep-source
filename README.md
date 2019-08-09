@@ -6,8 +6,8 @@
 This is the Github repository for the Deep Source project, created during [Neurohackademy 2019](https://neurohackademy.org/neurohack_year/2019/).
 
 ## Goal
-- Simulate MEG source data with deep sources (e.g. hippocampal activity) and estimate which source reconstruction method performs better.
-- For a detailed overview of our project, see our [project-outline](/project_outline.ipynb)
+- Simulate MEG source data with deep sources (e.g. hippocampal activity) and estimate which source reconstruction method performs better when reconstructing them.
+- For a detailed overview of what we are going to achieve, see our [project-outline](/project_outline.ipynb)
 
 ## Contributors
 **\*(in alphabetic order**)
