@@ -18,12 +18,10 @@ This is the Github repository for the Deep Source project, created during [Neuro
 
 ## Next steps:
 1. - [ ] Incorporate and compare other source reconstruction methods (other than MNE and Beamformer)
-<br>
 2. - [ ] Quantitatively compare the source reconstruction methods using the following algorithms:
         - Crosstalk-to-Signal Ratio (CSR)
         - Neural Activity Index (NAI)
         - Point-Spread Functions
-<br>
 3. - [ ] Simulate the ground truth data to vary in the following aspects:
         - Depth of the sources
         - Correlation of the sources
