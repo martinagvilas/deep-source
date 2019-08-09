@@ -30,4 +30,4 @@ This is the Github repository for the Deep Source project, created during [Neuro
         - Closeness of the sources
         - The SNR
 
-    ... and compare the performance of different source reconstruction methods.
+        ... and compare the performance of different source reconstruction methods.
